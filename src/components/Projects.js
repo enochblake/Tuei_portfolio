@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Projects(){
     return(
-        <div>
+        <section>
+        <div className="text-purple-100">
             <h1 className="text-xl font-extrabold">My Projects</h1>
             <div className="flex justify-center">
                 <div className="px-5">
@@ -24,5 +25,6 @@ export default function Projects(){
             </div>
             
         </div>
+        </section>
     )
 }

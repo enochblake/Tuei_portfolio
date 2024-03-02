@@ -7,7 +7,7 @@ import Contacts from './components/Contacts';
 
 function App() {
   return (
-    <div className="App bg-gray-300 h-vh">
+    <div className="App h-vh" style={{backgroundImage: "linear-gradient(180deg, #0a0c3e 0%, #f1d6e3 100%)"}}>
      <NavBar />
      <Home />
      <About />
