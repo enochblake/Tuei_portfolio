@@ -1,0 +1,7 @@
+.background {
+    background-image: url("https://cdn.gencraft.com/prod/user/ffdaaab6-17d8-47c4-8ede-b0435a868b0d/cbeab863-b4f4-4dfe-b8cc-56e5e2f357fe/image/image0_0.jpg?Expires=1709542467&Signature=nufv5yaaDnsHWKvX0GjfBCGLZUt08~TmnUjYB4dZIQcXAehosv4Lw4HIzdWzl-zdPd1flinQd3IN-GHUYwd7d7-5DGEPEofxKyG4PWKxAHdc2G3JnCdwuhxn10lhIWvxGe35PH0R8hpugiNTHEDIlZ833shi~yvOFfBtcO4zHOc2FV~qLStLH-c8yf8TEd322fuRIRsqYdzfmYRk-oNJMHebc61DIZV9~jxG7NoqMMNglRdvUxUzGJeIb92h117fxLMovFuVh7IFSoVzNnYjzREawD4cREUQVB~s~u8twRXHiZcWSP6iu-tLP1LyIP4HWOGnDngBgfhe0qFta27Lzg__&Key-Pair-Id=K3RDDB1TZ8BHT8");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 300px;
+}

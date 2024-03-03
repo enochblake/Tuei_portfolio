@@ -22,6 +22,21 @@ export default function Projects(){
                         <li>Source Code: </li>
                     </ul>
                 </div>
+                <div className="flex">
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/256/984/984145.png" alt="skills" style={{height: "8rem", width: "8rem"}}></img>
+                </div>
+                <div>
+            <h2 className="text-xl font-bold">Skills</h2>
+            <ul className="text-left">
+                <li>Languages: HTML, CSS, JavaScript, Python</li>
+                <li>Frameworks: React</li>
+                <li>Databases: </li>
+                <li>Tools: Git, VS Code</li>
+            </ul>
+            </div>
+            </div>
+            
             </div>
             
         </div>
