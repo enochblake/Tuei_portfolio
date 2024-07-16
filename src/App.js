@@ -4,15 +4,18 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App h-full pb-1" style={{backgroundImage: "linear-gradient(180deg, #0a0c3e 0%, #f1d6e3 100%)"}}>
+    <div className="App h-full pb-1">
      <NavBar />
-     <Home />
-     <About />
-     <Projects />
-     <Contacts />
+     <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contacts />} />
+     </Routes>
     </div>
   );
 }

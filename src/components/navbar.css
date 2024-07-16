@@ -1,0 +1,20 @@
+.nav{
+    background-color: 4F2E57;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+.navlink{
+    justify-content: end;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    gap: 40px;
+    font-size: 20px;
+}
+.navlink:hover{
+    color: #8C87BE;
+    border-bottom: #070707;
+}

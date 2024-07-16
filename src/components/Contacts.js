@@ -8,8 +8,8 @@ export default function Contacts(){
             <div className="text-purple-200 py-10">
                 <h1 className="text-xl font-extrabold">Contact Me!</h1>
                 <ul className="flex px-5 text-purple-950">
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTJFvVRWFDVLlBbGrhnntkKvVFlpRhpXxdvZpwQcbQnKpqGQpNjLwDvtTKfqhCnBDrcbmL"><li className="px-5">email</li></a>
-                    <a href="#"><li className="px-5">LinkedIn profile </li></a>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvlqBTWrkzDWNrfLHQMMfTLMkzfQvhCxlqHmfPPwbBXzvfRHWKkWQrKTCPwBMvJcDSKkmL"><li className="px-5">email</li></a>
+                    <a href="www.linkedin.com/in/efjeniah-saru-0b3ba62b9"><li className="px-5">LinkedIn profile </li></a>
                     <a href="https://github.com/E-Saru"><li className="px-5">GitHubprofile </li></a>
                 </ul>
             </div>
