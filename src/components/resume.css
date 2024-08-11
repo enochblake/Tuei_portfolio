@@ -1,0 +1,169 @@
+.resume {
+    display: flex;
+    min-height: 100%;
+  }
+  
+  .side {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color: #8C75AD;
+  }
+  
+  .side img {
+    border-radius: 0% 0% 10% 10%;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: left;
+    background-color: #f7d5fb67;
+    color: whitesmoke;
+    width: 20vw;
+    font-size: 18px;
+    padding: 10px 50px;
+    box-shadow: 0 4px 10px #0000001a;
+    border-radius: 0% 0% 10% 10%;
+  }
+  
+  .navigation ul li:hover {
+    color: #dbd6f0;
+    font-weight: 600px;
+    font-size: 19px;
+    border-bottom: 2px solid #e467195b;
+    transition: transform 0.3s ease;
+  }
+  
+  .main {
+    width: 80%;
+    padding: 40px;
+    background-color: #edf2f4;
+  }
+  
+  .resume-title {
+    font-size: 36px;
+    margin-bottom: 7px;
+    color: #4F2E57;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #2b2d42;
+    margin-bottom: 10px;
+  }
+  
+  .educate, .skills-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .school, .job {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .school:hover, .job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .date-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8d99ae;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2b2d42;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-resume {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-skills {
+    margin: 10px;
+    color: #2b2d42;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #c1b2f534;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  ul li svg {
+    margin-right: 8px;
+    color: #e46719;
+    font-size: 1.2em;
+  }
+  
+  .tech-skills ul{
+    padding-left: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .soft-skills ul {
+    padding-left: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tech-skills ul li::before, .soft-skills ul li::before {
+    content: none;
+  }
+  
+  .skills-container h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #1c245299;
+    background-color: #c1b2f58a;
+  }
+  

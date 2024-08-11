@@ -1,18 +1,37 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.saru{
+    display: flex;
+    flex-direction: row;
+}
 .background {
     background-image: url('./assets/tech-girlie.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 46.8vh;
+    width: 75%;
+    border-radius: 0% 0% 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -100%;
     position: relative;
 }
 
 .overlay {
     position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    border-radius: 0% 0% 100%;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -100%;
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
     z-index: 1;
 }
@@ -20,7 +39,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100%;
     position: relative;
@@ -29,7 +48,7 @@
 
 .content {
     text-align: center;
-    padding: 50px;
+    padding: 150px 0px;
     color: white;
     /* background-color: rgba(255, 255, 255, 0.5); */
     /* border-radius: 30% 50% / 70% 10%; */
@@ -37,17 +56,59 @@
     -webkit-backdrop-filter: blur(3px); /* For Safari support */
 }
 
+.content h2{
+    color: #b9b8b8;
+}
+
 .background::before {
     content: '';
     position: absolute;
+    border-radius: 0% 0% 100%;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -100%;
     background-image: inherit;
     background-size: inherit;
     background-position: inherit;
     background-repeat: inherit;
     filter: blur(3px); /* Blur the background image */
     z-index: 0;
+}
+.name{
+    width: 20%;
+    font-size: 25px;
+    color: #4F2E57;
+    font-weight: 500;
+    padding: 160px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 0px; */
+    font-size: 18px;
+}
+.btn{
+    margin: 20px;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #B79CCC;
+}
+.btn:hover{
+    background-color: #A66F9C;
+    color: #4b4a4a80;
+}
+.stack{
+    font-size: 20px;
+    color: #e46719;
+    padding: 10px 0px;
+}
+.tch{
+    font-size: 17px;
+    padding: 10px 0px;
 }

@@ -1,5 +1,5 @@
 .nav{
-    background-color: 4F2E57;
+    background-color: #8C75AD;
     height: 50px;
     width: 100%;
     justify-content: center;
@@ -7,14 +7,25 @@
     padding: 10px 50px;
 }
 .navlink{
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     display: flex;
     color: #fff;
     text-decoration: none;
     gap: 40px;
     font-size: 20px;
 }
-.navlink:hover{
+/* .navlink:hover{
     color: #8C87BE;
     border-bottom: #070707;
+} */
+.link{
+    position: relative;
+    top: 70%;
+}
+
+.link:hover{
+    border-bottom: 2px solid #e46719;
+    border-top: 2px solid #e46719;
+    color: #f4a16e;
 }
