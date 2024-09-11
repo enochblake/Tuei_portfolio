@@ -3,6 +3,17 @@
     min-height: 100%;
   }
   
+  @media screen and (max-width: 800px) {
+    .resume {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+
   .side {
     width: 20%;
     height: auto;
@@ -10,9 +21,15 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    background-color: #8C75AD;
+    background-color: #cfb7cf;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
   }
   
+
+
   .side img {
     border-radius: 0% 0% 10% 10%;
     margin-bottom: 20px;
@@ -22,6 +39,14 @@
   .navigation ul {
     list-style: none;
     padding: 0;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-around;
+    }
   }
   
   .navigation ul li {
@@ -29,13 +54,25 @@
     cursor: pointer;
     transition: color 0.3s ease;
     text-align: left;
-    background-color: #f7d5fb67;
+    background-color: #a57db862;
     color: whitesmoke;
     width: 20vw;
     font-size: 18px;
     padding: 10px 50px;
     box-shadow: 0 4px 10px #0000001a;
     border-radius: 0% 0% 10% 10%;
+
+    @media screen and (max-width: 800px) {
+      padding: 2px 2px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 460px) {
+      font-size: 0.9rem;
+    }
   }
   
   .navigation ul li:hover {
@@ -48,8 +85,14 @@
   
   .main {
     width: 80%;
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     background-color: #edf2f4;
+
+    @media screen and (max-width: 800px) {
+      padding:10px;
+      margin: 0;
+      width: 100%;
+    }
   }
   
   .resume-title {
@@ -71,6 +114,10 @@
   .educate, .skills-container {
     display: flex;
     gap: 20px;
+
+    @media screen and (max-width: 800px) {
+      flex-wrap: wrap;
+    }
   }
   
   .school, .job {
@@ -79,6 +126,10 @@
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media screen and (max-width:500px){
+      font-size: 0.85rem;
+    }
   }
   
   .school:hover, .job:hover {
@@ -118,8 +169,8 @@
     display: flex;
     align-items: center;
     text-align: left;
-    background-color: #c1b2f534;
-    width: 95%;
+    background-color: #cfb7cf59;
+    max-width: fit-content;
     border-radius: 10px;
     padding: 10px;
     gap: 10px;
@@ -132,38 +183,55 @@
     color: #e46719;
     font-size: 1.2em;
   }
-  
+
   .tech-skills ul{
     padding-left: 20px;
     text-align: left;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(5, 1fr); */
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media screen and (max-width: 556px) {
+      /* grid-template-columns: repeat(2, 1fr); */
+      font-size: 0.75rem;
+      padding: 10px;
+    }
   }
+
   .soft-skills ul {
     padding-left: 20px;
     text-align: left;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media screen and (max-width: 556px) {
+      padding: 10px;
+      font-size: 0.75rem;
+    }
   }
   
   .tech-skills ul li::before, .soft-skills ul li::before {
     content: none;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
   
   .skills-container h3 {
     font-size: 21px;
     margin-bottom: 15px;
     color: #1c245299;
-    background-color: #c1b2f58a;
+    background-color: #cfb7cf59;
   }
   

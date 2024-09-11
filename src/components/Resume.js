@@ -28,7 +28,7 @@ function Resume() {
       <div className='main'>
         <h1 className="text-3xl font-extrabold text-center mb-6 mt-1" style={{color: '#4F2E57'}}>Resume</h1>
         <section className='education'>
-          <h2 style={{backgroundColor: '#B79CCC'}}>Education</h2>
+          <h2 style={{backgroundColor: '#cfb7cf'}}>Education</h2>
           <div className='educate'>
             <div className='school'>
               <div className='date-icon'>
@@ -75,7 +75,7 @@ function Resume() {
           </div>
         </section>
         <section className='experience'>
-          <h2 style={{backgroundColor: '#B79CCC'}}>Experience</h2>
+          <h2 style={{backgroundColor: '#cfb7cf'}}>Experience</h2>
           <div className='job'>
             <div className='date-icon'>
               <MdOutlineDateRange />
@@ -92,7 +92,7 @@ function Resume() {
           </div>
         </section>
         <section className='skills'>
-          <h2 style={{backgroundColor: '#B79CCC'}}>Skills</h2>
+          <h2 style={{backgroundColor: '#cfb7cf'}}>Skills</h2>
           <div className='skills-container'>
             <div className='tech-skills'>
               <h3>Technical Skills</h3>

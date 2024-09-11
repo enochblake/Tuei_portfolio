@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
         <div className="about-container">
-            <h1 className="text-3xl font-extrabold text-center mb-6 mt-1" style={{color: '#4F2E57'}}>About Me!</h1>
+            <h1 className="text-3xl font-extrabold text-center mb-6 mt-0" style={{color: '#ffff'}}>About Me!</h1>
             <div className="flex-about">
                 <div className="about-text">
                     <img 
-                        src="https://static.vecteezy.com/system/resources/previews/006/800/646/non_2x/information-science-illustration-exclusive-design-inspiration-vector.jpg" 
+                        src="https://static.vecteezy.com/system/resources/previews/009/298/359/non_2x/3d-illustration-of-web-development-png.png" 
                         alt="vector"
                         className="about-img"
                     />
