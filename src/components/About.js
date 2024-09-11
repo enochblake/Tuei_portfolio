@@ -1,6 +1,6 @@
 import React from "react";
 import './about.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import { FaCode, FaLaptopCode, FaLightbulb, FaUsers } from "react-icons/fa";
 
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="about-contact">
-                    <button><Link to='/contact'> Contact Me!</Link></button>
+                    <button><a href='/#contact'> Contact Me!</a></button>
                 </div>
             </div>
         </div>

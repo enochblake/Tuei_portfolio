@@ -53,10 +53,10 @@
 
 import React from "react";
 import "./Home.css";
-import About from "./About";
-import Resume from "./Resume";
-import Projects from "./Projects";
-import Contacts from "./Contacts";
+// import About from "./About";
+// import Resume from "./Resume";
+// import Projects from "./Projects";
+// import Contacts from "./Contacts";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -80,15 +80,11 @@ function Home() {
             I'm a tech enthusiast with a passion for creativity and problem-solving. Whether crafting elegant front-end designs or diving into backend architecture, I thrive on bringing ideas to life in the digital realm. Join me as we conquer the binary jungle together, one line of code at a time!
           </p>
           <div className="btns">
-            <Link to="/resume" className="btn">View Resume</Link>
-            <Link to="/projects" className="btn">See Projects</Link>
+            <a href="/#resume" className="btn">View Resume</a>
+            <a href="/#projects" className="btn">See Projects</a>
           </div>
         </div>
       </div>
-      <About />
-      <Resume />
-      <Projects />
-      <Contacts />
     </div>
   );
 }

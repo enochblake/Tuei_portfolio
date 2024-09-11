@@ -10,7 +10,7 @@ import './contacts.css';
 export default function Contacts() {
     return (
         <div className="contacts-container">
-            <h1 className="text-3xl font-extrabold text-center mb-6 mt-6" style={{color: '#4F2E57'}}>Contact Me!</h1>
+            <h1 className="text-3xl font-extrabold text-center mb-6" style={{color: '#4F2E57'}}>Contact Me!</h1>
             <div className="form-container">
                 <h2 className="form-title">Let's Chat!</h2>
                 <div className="contact-links">

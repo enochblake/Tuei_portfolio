@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { MdOutlineDateRange, MdSchool, MdOutlineWork, MdOutlineCode } from "react-icons/md";
 import { FaSchool, FaHtml5, FaCss3Alt, FaPython, FaReact, FaGitAlt, FaLinux, FaNodeJs, FaPhp } from "react-icons/fa";
 import { SiJavascript, SiFlask, SiSqlite, SiFigma } from "react-icons/si";
@@ -18,16 +18,16 @@ function Resume() {
         <img src="https://static.vecteezy.com/system/resources/previews/006/800/646/non_2x/information-science-illustration-exclusive-design-inspiration-vector.jpg" alt="vector" />
         <div className='navigation'>
           <ul className='link-resume'>
-            <li className='side-resume'><Link path='/resume'>Education</Link></li>
-            <li className='side-resume'><Link path='/resume'>Experience</Link></li>
-            <li className='side-resume'><Link path='/resume'>Skills</Link></li>
-            <li className='side-resume'><Link path='/projects'>Projects</Link></li>
+            <li className='side-resume'><a href='#education'>Education</a></li>
+            <li className='side-resume'><a href='#experience'>Experience</a></li>
+            <li className='side-resume'><a href='#skills'>Skills</a></li>
+            <li className='side-resume'><a href='/#projects'>Projects</a></li>
           </ul>
         </div>
       </div>
       <div className='main'>
         <h1 className="text-3xl font-extrabold text-center mb-6 mt-1" style={{color: '#4F2E57'}}>Resume</h1>
-        <section className='education'>
+        <section id='education'>
           <h2 style={{backgroundColor: '#cfb7cf'}}>Education</h2>
           <div className='educate'>
             <div className='school'>
@@ -74,7 +74,7 @@ function Resume() {
             </div>
           </div>
         </section>
-        <section className='experience'>
+        <section id='experience'>
           <h2 style={{backgroundColor: '#cfb7cf'}}>Experience</h2>
           <div className='job'>
             <div className='date-icon'>
@@ -91,7 +91,7 @@ function Resume() {
             </div>
           </div>
         </section>
-        <section className='skills'>
+        <section id='skills'>
           <h2 style={{backgroundColor: '#cfb7cf'}}>Skills</h2>
           <div className='skills-container'>
             <div className='tech-skills'>
