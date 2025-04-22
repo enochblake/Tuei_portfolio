@@ -23,6 +23,7 @@ function Home() {
           </p>
           <div className="btns">
             <a href="/#resume" className="btn">View Resume</a>
+            <a href="./assets/Efjeniah_Saru_CV.pdf" download class="btn">Download CV</a>
             <a href="/#projects" className="btn">See Projects</a>
           </div>
         </div>
