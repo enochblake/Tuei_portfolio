@@ -37,20 +37,6 @@ export default function Projects() {
                     </div>
                     </a>
                 </div>
-
-                <div className="project-card">
-                    <a href="https://monstro-app.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <img className="project-image" src="./noaa-Led9c1SSNFo-unsplash.jpg" alt="Monstro Weather App" />
-                    
-                    <h2 className="project-title">Monstro Weather App </h2>
-                    <p className="project-description">
-                        A React-based application providing real-time weather updates for various locations. Monstro features a user-friendly interface, offline access, customizable settings, and is tailored for weather enthusiasts and professionals. It includes components like TemperatureConverter, WeatherComparison, and more.
-                    </p>
-                    <div className="project-tech">
-                        <FaReact /> <SiHtml5 /> <SiCss3 /> <SiJavascript /> <TbJson /> <SiVercel />
-                    </div>
-                    </a>
-                </div>
             </div>
         </section>
     );
