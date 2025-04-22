@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 // import { Link } from 'react-router-dom';
 import { MdOutlineDateRange, MdSchool, MdOutlineWork, MdOutlineCode } from "react-icons/md";
-import { FaSchool, FaHtml5, FaCss3Alt, FaPython, FaReact, FaGitAlt, FaLinux, FaNodeJs, FaPhp } from "react-icons/fa";
+import { FaSchool, FaHtml5, FaCss3Alt, FaPython, FaReact, FaGitAlt, FaLinux, FaNodeJs, FaPhp, FaMapMarkedAlt } from "react-icons/fa";
 import { SiJavascript, SiFlask, SiSqlite, SiFigma } from "react-icons/si";
 import { GoOrganization } from "react-icons/go";
 import { IoMdPeople } from "react-icons/io";
@@ -90,6 +90,34 @@ function Resume() {
               <span>KENGEN</span>
             </div>
           </div>
+          <div className='job'>
+            <div className='date-icon'>
+              <MdOutlineDateRange />
+              <span className='date'>2024</span>
+            </div>
+            <div className='info'>
+              <MdOutlineWork />
+              <span>GIS Data Collector</span>
+            </div>
+            <div className='info'>
+              <GoOrganization />
+              <span>KPLC</span>
+            </div>
+          </div>
+          <div className='job'>
+            <div className='date-icon'>
+              <MdOutlineDateRange />
+              <span className='date'>2025</span>
+            </div>
+            <div className='info'>
+              <MdOutlineWork />
+              <span>ICT Assistant</span>
+            </div>
+            <div className='info'>
+              <GoOrganization />
+              <span>Empserve Kenya</span>
+            </div>
+          </div>
         </section>
         <section id='skills'>
           <h2 style={{backgroundColor: '#cfb7cf'}}>Skills</h2>
@@ -109,6 +137,7 @@ function Resume() {
                 <li className='resume-skills'><FaNodeJs /> NodeJs</li>
                 <li className='resume-skills'><FaPhp /> PHP</li>
                 <li className='resume-skills'><SiSqlite /> SQL</li>
+                <li className='resume-skills'><FaMapMarkedAlt/>GIS Data Collection</li>
                 <li className='resume-skills'><MdOutlineCode /> Database Management</li>
                 <li className='resume-skills'><BsTools /> User Support</li>
                 <li className='resume-skills'><GiNetworkBars /> Network Configuration</li>

@@ -1,8 +1,7 @@
 import React from "react";
 import './projects.css';
 import { FaReact, FaPython, FaCcStripe} from "react-icons/fa";
-import { SiFlask, SiRedux, SiMongodb, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiCloudinary, SiJsonwebtokens, SiVercel, SiRender } from "react-icons/si";
-import { TbJson } from "react-icons/tb";
+import { SiFlask, SiRedux, SiMongodb, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiCloudinary, SiJsonwebtokens, SiRender } from "react-icons/si";
 
 export default function Projects() {
     return (
@@ -19,7 +18,7 @@ export default function Projects() {
                         A comprehensive web application to facilitate online donations and fund management for non-profit organizations. Built with a modern tech stack including React, Redux, Python, and Flask, it enables secure and efficient transactions for donors, NGOs, and admins.
                     </p>
                     <div className="project-tech">
-                        <FaReact /> <SiRedux /> <FaPython /> <SiFlask /> <SiPostgresql /> <SiCloudinary /> <FaCcStripe /> <SiJsonwebtokens /> <SiRender />
+                        <FaReact /> <SiRedux /> <FaPython /> <SiFlask /> <SiPostgresql /> <SiCloudinary /> <FaCcStripe /> <SiJsonwebtokens /> <SiRender /><SiJavascript/><SiHtml5/><SiCss3/>
                     </div>
                     </a>
                 </div>
@@ -33,7 +32,7 @@ export default function Projects() {
                         A robust e-commerce platform for specialty teas, leveraging technologies like React.js, Flask, and MongoDB. The platform ensures a seamless shopping experience and includes secure transaction processing and comprehensive admin tools.
                     </p>
                     <div className="project-tech">
-                        <FaReact /> <SiFlask /> <SiMongodb /> <SiPostgresql /> <SiCloudinary /> <FaCcStripe /> <SiJsonwebtokens /> <SiRender />
+                        <FaReact /> <SiFlask /> <SiMongodb /> <SiPostgresql /> <SiCloudinary /> <FaCcStripe /> <SiJsonwebtokens /> <SiRender /><SiJavascript/><SiHtml5/><SiCss3/>
                     </div>
                     </a>
                 </div>
