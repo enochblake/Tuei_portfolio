@@ -1,11 +1,11 @@
+// Contacts.js
 import React from "react";
 import './contacts.css';
 import { IoMdContact } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { AiFillMessage } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import './contacts.css';
+import { FaEnvelope } from "react-icons/fa";
 
 export default function Contacts() {
     return (
@@ -14,17 +14,14 @@ export default function Contacts() {
             <div className="form-container">
                 <h2 className="form-title">Let's Chat!</h2>
                 <div className="contact-links">
-                    <a href="mailto:esaru008@gmail.com" className="contact-icon" title="Email Me">
+                    <a href="mailto:memotuei@gmail.com" className="contact-icon" title="Email Diana">
                         <FaEnvelope />
                     </a>
-                    <a href="https://www.linkedin.com/in/efjeniah-saru-0b3ba62b9" className="contact-icon" title="LinkedIn Profile">
-                        <FaLinkedin />
-                    </a>
-                    <a href="https://github.com/E-Saru" className="contact-icon" title="GitHub Profile">
-                        <FaGithub />
-                    </a>
                 </div>
-                <form className="contact-form" action="https://formsubmit.co/esaru008@gmail.com" method="POST">
+                <p className="text-center mt-2">
+                  Or call: <strong>+254 720 554 637</strong>
+                </p>
+                <form className="contact-form" action="https://formsubmit.co/memotuei@gmail.com" method="POST">
                     <div className="form-group">
                         <label className="form-label"><IoMdContact /> Name:</label>
                         <input type="text" name="name" placeholder="Enter your name" required className="form-input" />

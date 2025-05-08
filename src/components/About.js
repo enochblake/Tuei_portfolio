@@ -1,6 +1,7 @@
+// About.js
 import React from "react";
 import './about.css';
-import { FaLightbulb, FaLaptopCode, FaGlobe, FaHeart } from "react-icons/fa";
+import { FaLaptopCode, FaGlobe, FaHeart } from "react-icons/fa";
 
 export default function About() {
     return (
@@ -24,10 +25,9 @@ export default function About() {
                             <FaHeart className="text-pink-400" /> Who I Am
                         </h2>
                         <p className="text-xl text-justify mt-2">
-                            I’m Efjeniah — a curious, hands-on creator who loves solving problems through code and meaningful design. I'm not just a developer; I'm a builder of solutions that make life smoother, smarter, and more human.
-                        </p>
-                        <p className="text-xl text-justify mt-4">
-                            Sometimes I’m deep into React, Flask or Django, other times I’m brainstorming systems, or exploring new ideas in DevOps, AI, or cloud computing. I love work that sparks real change and gives me room to grow and explore.
+                            I’m Diana—a hardworking, honest, and reliable team player with a high degree
+                            of personal integrity. I’m self‑motivated and thrive under minimal supervision,
+                            always open to cultural and religious diversity in the workplace.
                         </p>
                     </div>
 
@@ -36,17 +36,21 @@ export default function About() {
                             <FaLaptopCode className="text-blue-400" /> What I Do
                         </h2>
                         <p className="text-xl text-justify mt-2">
-                            I design and build full-stack web solutions — from custom dashboards to interactive forms and APIs. My projects often blend tech with impact: streamlining operations, managing real-time data, or connecting communities. But above all, I build with intention.
+                            I deliver first‑line support and user training, manage CCTV systems,
+                            administer networks (LAN/WAN), maintain databases and servers, and
+                            oversee ERP & Office 365 environments. I also build and update websites,
+                            manage digital media content, and champion IT projects from planning
+                            through implementation.
                         </p>
                     </div>
 
                     <div className="about-section mt-6">
                         <h2 className="text-2xl font-semibold flex items-center gap-2">
-                            <FaGlobe className="text-green-400" /> What I'm Looking For
+                            <FaGlobe className="text-green-400" /> What I’m Looking For
                         </h2>
                         <ul className="list-disc list-inside text-xl mt-2 space-y-2">
-                            <li>Remote-friendly dev roles that challenge and grow me</li>
-                            <li>Tech-for-good projects that need sharp minds and soft hearts</li>
+                            <li>A challenging IT role that leverages my hands‑on support and system administration skills</li>
+                            <li>Opportunities for continuous professional growth and certifications</li>
                         </ul>
                     </div>
 

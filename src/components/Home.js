@@ -1,3 +1,4 @@
+// Home.js
 import React from "react";
 import "./Home.css";
 
@@ -9,21 +10,28 @@ function Home() {
           <div className="overlay">
             <div className="container">
               <div className="content">
-                <h1 className="welcome-text">Welcome to the Digital Wonderland of Efjeniah!</h1>
-                <h2 className="quote">"Fierce and fabulous in the world of ones and zeros!"</h2>
+                <h1 className="welcome-text">
+                  Welcome to the Digital Portfolio of Diana Chepkemoi Tuei
+                </h1>
+                <h2 className="quote">
+                  “Improving efficiency and performance, one support call at a time.”
+                </h2>
               </div>
             </div>
           </div>
         </div>
         <div className="intro">
-          <h1>Hello! I'm Efjeniah Saru</h1>
-          <h2 className="stack">Full-Stack Software Developer</h2>
+          <h1>Hello! I’m Diana Chepkemoi Tuei</h1>
+          <h2 className="stack">Information Technology Professional</h2>
           <p className="tch">
-            I'm a tech enthusiast with a passion for creativity and problem-solving. Whether crafting elegant front-end designs or diving into backend architecture, I thrive on bringing ideas to life in the digital realm. Join me as we conquer the binary jungle together, one line of code at a time!
+            I’m a highly motivated IT professional with deep technical expertise in system support,
+            CCTV operations, network & database management, and ERP systems. I thrive on solving
+            user issues—whether on the helpdesk, over the phone, or via remote tools—and aim to
+            drive efficiency, cut operating costs, and boost performance every day.
           </p>
           <div className="btns">
             <a href="/#resume" className="btn">View Resume</a>
-            <a href="./assets/Efjeniah_Saru_CV.pdf" download class="btn">Download CV</a>
+            <a href="./assets/Diana_Tuei_CV.pdf" download className="btn">Download CV</a>
             <a href="/#projects" className="btn">See Projects</a>
           </div>
         </div>
