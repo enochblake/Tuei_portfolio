@@ -21,7 +21,7 @@ export default function Contacts() {
                 <p className="text-center mt-2">
                   Or call: <strong>+254 720 554 637</strong>
                 </p>
-                <form className="contact-form" action="https://formsubmit.co/memotuei@gmail.com" method="POST">
+                <form className="contact-form" action="https://formsubmit.co/memotuei1@gmail.com" method="POST">
                     <div className="form-group">
                         <label className="form-label"><IoMdContact /> Name:</label>
                         <input type="text" name="name" placeholder="Enter your name" required className="form-input" />

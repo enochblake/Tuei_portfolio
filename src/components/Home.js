@@ -1,6 +1,7 @@
 // Home.js
 import React from "react";
 import "./Home.css";
+import resumePDF from "./assets/DIANA_CHEPKEMOI_TUEI.pdf";
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
           </p>
           <div className="btns">
             <a href="/#resume" className="btn">View Resume</a>
-            <a href="./assets/Diana_Tuei_CV.pdf" download className="btn">Download CV</a>
+            <a href={resumePDF} download className="btn">Download CV</a>
             <a href="/#projects" className="btn">See Projects</a>
           </div>
         </div>
